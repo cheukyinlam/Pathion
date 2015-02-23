@@ -1,13 +1,11 @@
 package com.example.matthew.myapplication;
 
-import android.graphics.Color;
 import android.support.v7.app.ActionBarActivity;
 import android.os.Bundle;
 import android.util.Log;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
-import android.widget.Button;
 import android.widget.ImageButton;
 import android.widget.RelativeLayout;
 
@@ -16,17 +14,13 @@ public class MainActivity extends ActionBarActivity {
     private final String TAG = "Yolo!";
     RelativeLayout background;
     ImageButton event, calendar, forum, welfare, timetable, video, mark, facebook;
-    Button yybutton, xxbutton;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.frontpage_layout);
         Log.d(TAG, "onCreate");
 
-        //background = (LinearLayout) findViewById(R.id.linearlayout);
         background = (RelativeLayout)findViewById(R.id.frontpage_layout);
-        xxbutton = (ImageButton) findViewById(R.id.xxbutton);
-        yybutton = (Button) findViewById(R.id.yybutton);
         event = (ImageButton)findViewById(R.id.event);
         calendar = (ImageButton)findViewById(R.id.calendar);
         forum = (ImageButton)findViewById(R.id.forum);
@@ -36,23 +30,58 @@ public class MainActivity extends ActionBarActivity {
         mark = (ImageButton)findViewById(R.id.mark);
         facebook = (ImageButton)findViewById(R.id.facebook);
 
-        xxbutton.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                //wt happens when button is clicked
-                background.setBackgroundColor(Color.parseColor("#00ff00"));
-            }
-        });
         event.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
 
             }
         });
-        yybutton.setOnClickListener(new View.OnClickListener() {
+        calendar.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                background.setBackgroundColor(Color.parseColor("#006699"));
+//lol
+            }
+        });
+
+        forum.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+
+            }
+        });
+
+        welfare.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+
+            }
+        });
+
+        timetable.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+
+            }
+        });
+
+        video.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+
+            }
+        });
+
+        mark.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+
+            }
+        });
+
+        facebook.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+
             }
         });
 
