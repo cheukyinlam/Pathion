@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/frontpage_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg1_2x"
+    >
+
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="fill_parent"
+        android:layout_height="120dp"
+        android:id="@+id/linearLayout"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:baselineAligned="true" ></LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_below="@+id/linearLayout"
+        android:id="@+id/left_right"
+        android:baselineAligned="false">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="match_parent"
+            android:id="@+id/left"
+            android:weightSum="1">
+
+            <ImageButton
+                android:layout_width="match_parent"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
+                android:layout_height="0dp"
+                android:layout_marginBottom="10dp"
+                android:id="@+id/event"
+                android:background="@drawable/buttonevent_2x"
+                android:layout_weight="0.23" />
+
+            <ImageButton
+                android:layout_width="match_parent"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
+                android:layout_height="0dp"
+                android:layout_marginBottom="10dp"
+                android:id="@+id/calendar"
+                android:background="@drawable/buttoncalendar_2x"
+                android:layout_weight="0.23" />
+
+            <ImageButton
+                android:layout_width="match_parent"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
+                android:layout_height="0dp"
+                android:layout_marginBottom="10dp"
+                android:id="@+id/forum"
+                android:background="@drawable/buttonforum_2x"
+                android:layout_weight="0.23" />
+
+            <ImageButton
+                android:layout_width="match_parent"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
+                android:layout_height="0dp"
+                android:id="@+id/welfare"
+                android:background="@drawable/buttonwelfare_2x"
+                android:layout_weight="0.23" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="match_parent"
+            android:id="@+id/right"
+            android:weightSum="1">
+
+
+            <ImageButton
+                android:layout_width="match_parent"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
+                android:layout_height="0dp"
+                android:layout_marginBottom="10dp"
+                android:id="@+id/timetable"
+                android:background="@drawable/buttontimetable_2x"
+                android:layout_weight="0.23"
+                android:contentDescription="BUTTON events update" />
+
+            <ImageButton
+                android:layout_width="match_parent"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
+                android:layout_height="0dp"
+                android:layout_marginBottom="10dp"
+                android:id="@+id/video"
+                android:background="@drawable/buttonvideo_2x"
+                android:layout_weight="0.23" />
+
+            <ImageButton
+                android:layout_width="match_parent"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
+                android:layout_height="0dp"
+                android:layout_marginBottom="10dp"
+                android:id="@+id/mark"
+                android:background="@drawable/buttonmark_2x"
+                android:layout_weight="0.23" />
+
+            <ImageButton
+                android:layout_width="match_parent"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
+                android:layout_height="0dp"
+                android:id="@+id/facebook"
+                android:background="@drawable/buttonfacebook_2x"
+                android:layout_weight="0.23" />
+
+        </LinearLayout>
+    </LinearLayout>
+
+</RelativeLayout>

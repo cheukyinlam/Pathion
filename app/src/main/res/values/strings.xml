@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">My Application</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="day_of_week"></string>
+    <string name="date"></string>
+    <string name="day_reminder"></string>
+    <string name="tmr_reminder"></string>
+    <string name="weather"></string>
+    <string name="temperature"></string>
+
+</resources>
