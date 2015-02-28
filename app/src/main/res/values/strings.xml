@@ -10,5 +10,9 @@
     <string name="tmr_reminder"></string>
     <string name="weather"></string>
     <string name="temperature"></string>
+    <string name="title_item_list">Items</string>
+    <string name="title_item_detail">Item Detail</string>
+    <string name="title_event_list">Events</string>
+    <string name="title_event_detail">Event Detail</string>
 
 </resources>
