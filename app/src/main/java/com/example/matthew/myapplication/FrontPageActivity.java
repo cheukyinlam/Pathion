@@ -42,17 +42,22 @@ public class FrontPageActivity extends ActionBarActivity {
                 startActivity(intent);
             }
         });
-
+        calendarbutton.setOnClickListener(new View.OnClickListener(){
+            public void onClick(View view){
+                //Intent intent = new Intent(view.getContext(), EventListActivity.class);
+                //startActivity(intent);
+            }
+        });
     }
 
-   
+
 
     //@Override
-    //public boolean onCreateOptionsMenu(Menu menu) {
+    public boolean onCreateOptionsMenu(Menu menu) {
         // Inflate the menu; this adds items to the action bar if it is present.
-        //getMenuInflater().inflate(R.menu.menu_front_page, menu);
-        //return true;
-    //}
+        getMenuInflater().inflate(R.menu.menu_front_page, menu);
+        return true;
+    }
 
     @Override
     public boolean onOptionsItemSelected(MenuItem item) {

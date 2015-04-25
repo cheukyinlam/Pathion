@@ -22,6 +22,7 @@
             android:name=".EventListActivity"
             android:label="@string/title_event_list"
             android:parentActivityName=".FrontPageActivity" >
+            >
 
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
@@ -34,6 +35,10 @@
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value="com.example.matthew.myapplication.EventListActivity" />
+        </activity>
+        <activity
+            android:name=".ChooseCalendar"
+            android:label="@string/title_activity_choose_calendar" >
         </activity>
     </application>
 

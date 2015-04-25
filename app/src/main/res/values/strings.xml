@@ -14,5 +14,9 @@
     <string name="tmr_reminder">tmr is holiday</string>
     <string name="weather">clear</string>
     <string name="temperature">18C</string>
+    <string name="title_activity_front_page">FrontPageActivity</string>
+    <string name="title_activity_choose_calendar">ChooseCalendar</string>
+    <string name="School_Calendar">School Calendar</string>
+    <string name="ECA_Calendar">ECA Calendar</string>
 
 </resources>
